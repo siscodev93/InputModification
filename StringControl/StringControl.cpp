@@ -2,24 +2,11 @@ namespace MyStringControl
 {
 
 	//Get Length of char array
-<<<<<<< HEAD
 	int Length(char* ArrayIn)
 	{
 		int offset = 0;
 		int Len = 0;
 		while (*(ArrayIn + offset) != '\0')
-=======
-	int Length(char* arrayin)
-	{
-		int offset = 0;
-		int Len = 0;
-		while (*(arrayin + offset) != '\0')
->>>>>>> origin/master
-		{
-			Len++;
-			offset++;
-		}
-		return Len;
 	}
 
 	//convert all lower case letters a-z to upper-case
