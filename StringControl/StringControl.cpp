@@ -7,6 +7,7 @@ namespace MyStringControl
 		int offset = 0;
 		int Len = 0;
 		while (*(ArrayIn + offset) != '\0')
+		return Len;
 	}
 
 	//convert all lower case letters a-z to upper-case
